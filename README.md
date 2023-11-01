@@ -5,7 +5,7 @@ This project's purpose is to build a data compression method.That is, we want to
 
 One of the most important lossless data compression algorithms is called **Huffman coding.**
 
-The algorithmuses a priority queue. First you need to calculate the frequency of each symbol in the input. It Make a leaf node for each symbol and store its frequency in the node. Repeatedly do the following, find the two trees with the smallest frequencies. Make them the left and right children of a new node whose frequency the sum of the two frequencies. 
+The algorithm uses a priority queue. First you need to calculate the frequency of each symbol in the input. It Make a leaf node for each symbol and store its frequency in the node. Repeatedly do the following, find the two trees with the smallest frequencies. Make them the left and right children of a new node whose frequency the sum of the two frequencies. 
 
 
 # Programming Language
